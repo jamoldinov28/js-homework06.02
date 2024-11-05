@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feel.code</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="navbar__logo">
+                    <img class="navbar__image" src="./assets/photo_2024-10-26_09-45-40.jpg" alt="">
+                </div>                          
+                <ul class="navbar__collection">
+                    <li class="navbar__item">
+                        <a href="https://www.w3schools.com/js/"><span>Menu</span></a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="https://www.w3schools.com/js/js_loop_while.asp"><span>Darsliklar</span></a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="tel:+998889990969"><span>Murojat uchun</span></a>
+                    </li>
+                </ul>
+                <div class="navbar__menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main> 
+        <section class="loop">
+            <div class="container">
+                <div class="loop__title">
+                    <h2>JavaScriptning Loop mavzusi</h2>
+                    <h2>Loop takrorlash degan manoni bildiradi</h2>
+                </div>
+                <div class="loop__wrapper">
+                    <div class="loop__card">
+                        <h4>1. loopda to'g'ri qatorli sonlarga  misol keltiraman</h4>
+                        <strong>for(i = 1; i < 10; i++){</strong>  <br>
+                        <strong>console.log(i); <br>}</strong>    
+                    </div>
+                    <div class="loop__card">
+                        <h4>2. loopda teskari qatorli sonlarga  misol keltiraman</h4>
+                        <strong>for(i = 10; i > 0; i--){</strong>  <br>
+                        <strong>console.log(i); <br>}</strong>    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="hero">
+            <div class="container">
+                <div class="hero__title">
+                    <h2>JavaScriptning Loop (While, do-While) mavzusi</h2>
+                </div>
+            <div class="hero__wrapper">
+                <div class="hero__card">
+                    <h3>1.While va for ning farqi sintaksizida farqi bor xolos </h3>
+                    <h4>Whileda misol keltiraman</h4>
+                    <strong>Let i = 6</strong> <br>
+                    <strong>While(i = 6){</strong> <br>
+                    <strong>i++</strong> <br>    
+                    <strong>console.log("While ", i )
+                    <br>}</strong> 
+                </div>
+                <div class="hero__card">
+                    <h3>2.do-While shartni 1chi tekshirgani uchun xato bolsa xam 1 martta ishlaydi </h3>
+                    <h4>do-Whileda misol keltiraman</h4>
+                    <strong>Let i = 6</strong> <br>
+                    <strong>do{</strong>  <br>
+                    <strong>console.log("do While ", i )</strong> <br>
+                    <strong>i++</strong> <br> 
+                    <strong>}While(i = 6)</strong> <br> 
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
